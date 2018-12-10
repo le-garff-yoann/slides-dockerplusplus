@@ -1,0 +1,28 @@
+---
+image:
+  name: $CI_REGISTRY/le-garff-yoann/docker-reveal-md:latest
+  entrypoint: [ "/bin/sh", "-c" ]
+
+stages:
+  - build
+  - release
+  
+# cache:
+#   key: $CI_COMMIT_REF_SLUG
+#   paths:
+#     - public
+
+build:
+  stage: build
+  script: reveal-md index.md --template index.html --css index.css --static public
+
+pages:
+  stage: release
+  # script: test -f public/index.html
+  script: reveal-md index.md --template index.html --css index.css --static public # cache doesn't work well on gitlab.com... so we build it again
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+    - tags
