@@ -534,7 +534,7 @@ kubectl cordon k8s01
 
 *[...]*
 
-D'autres objets ou concepts comme `StatefulSet` (adapté au déploiement d'applications statefull), `Endpoint` (route les `Services` et les `Pods`), `CronJob`, `DaemonSet`, `Job`, `ConfigMap` (stock de la configuration), `Secret`, `StorageClass`, `PersistentVolume`, `PersistentVolumeClaim`, liveness/readiness probes + rolling update mériteraient le détour mais bon **ce n'est pas une formation ! :-)**
+D'autres objets ou concepts comme `StatefulSet` (adapté au déploiement d'applications statefull), `Endpoint` (route les `Services` et les `Pods`), `CronJob`, `DaemonSet`, `Job`, `ConfigMap` (stock de la configuration), `Secret`, `StorageClass`, `PersistentVolume`, `PersistentVolumeClaim`, les métriques, l'autoscaling (basé sur ces dernières), les liveness/readiness probes + rolling update mériteraient le détour mais bon **ce n'est pas une formation ! :-)**
 
 -----
 
@@ -652,12 +652,17 @@ Des exemples valent mieux qu'un long discours
 * [Ressources](https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/)
   * [Requests vs Limits](https://kubernetes.io/docs/concepts/policy/resource-quotas/#requests-vs-limits)
 * [`PersistentVolume`](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+  * [kubernetes-incubator/external-storage](https://github.com/kubernetes-incubator/external-storage)
 * [Isolation réseau - kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
+* [Métriques](https://kubernetes.io/docs/tasks/debug-application-cluster/core-metrics-pipeline/)
+* [Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
 * [API overview](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.13/)
 * [Bootcamp](https://kubernetesbootcamp.github.io/kubernetes-bootcamp)
 * [50+ Useful Kubernetes Tools](https://dzone.com/articles/50-useful-kubernetes-tools)
+* [SIGs (Special Interest Groups)](https://github.com/kubernetes-sigs)
 * [Documentation Helm](https://docs.helm.sh/)
 * [Repository Helm officiel](https://github.com/helm/charts)
+* [kubespray](https://github.com/kubernetes-sigs/kubespray)
 * [vagrant-k8s](https://gitlab.com/le-garff-yoann/vagrant-k8s)
 
 -----
