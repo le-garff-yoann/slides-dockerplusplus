@@ -1,6 +1,6 @@
 # slides-gitplusplus
 
-![Build Status](https://gitlab.com/le-garff-yoann/slides-dockerplusplus/badges/master/build.svg)
+[![pipeline status](https://gitlab.com/le-garff-yoann/slides-dockerplusplus/badges/master/pipeline.svg)](https://gitlab.com/le-garff-yoann/slides-dockerplusplus/pipelines)
 
 From Docker to k8s.
 
