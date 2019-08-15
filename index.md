@@ -238,7 +238,7 @@ Notes:
 
 -----
 
-![](images/k8s-architecture-diagram.png)
+![](images/k8s-control-plane.png)
 
 *Architecture de base*
 
@@ -534,7 +534,7 @@ kubectl cordon k8s01
 
 *[...]*
 
-D'autres objets ou concepts comme `StatefulSet` (adapté au déploiement d'applications statefull), `Endpoint` (route les `Services` et les `Pods`), `CronJob`, `DaemonSet`, `Job`, `ConfigMap` (stock de la configuration), `Secret`, `StorageClass`, `PersistentVolume`, `PersistentVolumeClaim`, les métriques, l'autoscaling (basé sur ces dernières), les liveness/readiness probes + rolling update mériteraient le détour mais bon **ce n'est pas une formation ! :-)**
+D'autres objets ou concepts comme **par exemple** `StatefulSet` (adapté au déploiement d'applications statefull), `Endpoint` (route les `Services` et les `Pods`), `CronJob`, `DaemonSet`, `Job`, `ConfigMap` (stock de la configuration), `Secret`, `StorageClass`, `PersistentVolume`, `PersistentVolumeClaim`, les métriques, l'autoscaling (basé sur ces dernières), les rolling updates, le service mesh mériteraient le détour mais bon **ce n'est pas une formation ! :-)**
 
 -----
 
@@ -656,6 +656,7 @@ Des exemples valent mieux qu'un long discours
 * [Isolation réseau - kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes)
 * [Métriques](https://kubernetes.io/docs/tasks/debug-application-cluster/core-metrics-pipeline/)
 * [Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
+* [What is a Service Mesh?](https://www.redhat.com/fr/topics/microservices/what-is-a-service-mesh)
 * [API overview](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.13/)
 * [Bootcamp](https://kubernetesbootcamp.github.io/kubernetes-bootcamp)
 * [50+ Useful Kubernetes Tools](https://dzone.com/articles/50-useful-kubernetes-tools)
