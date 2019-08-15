@@ -1,4 +1,4 @@
-# [slides-gitplusplus](https://le-garff-yoann.gitlab.io/slides-dockerplusplus)
+# [slides-docker++](https://le-garff-yoann.gitlab.io/slides-dockerplusplus)
 
 [![pipeline status](https://gitlab.com/le-garff-yoann/slides-dockerplusplus/badges/master/pipeline.svg)](https://gitlab.com/le-garff-yoann/slides-dockerplusplus/pipelines)
 
